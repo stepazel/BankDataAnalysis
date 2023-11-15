@@ -1,0 +1,7 @@
+nejdrive to ejste nejak procistit, proc se musi transformovat Yes a No na 1 a 0?
+Proc se musi kategoricke features rozdelit na N sloupcu, kde N je pocet values? Nejspis kvuli cross_val_score.. nefunguje to se stringem
+  na tohle zkusit pouzit tuto funkci: https://scikit-learn.org/dev/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder
+		v hodinach jsme na to pouzivali nejakou dummy funkci - porovnat
+Normalizovani dat - co to je? Musime to delat? -- STD scaler (Pro KNN a SVM to pouzila na X trenovaci data)
+Cross validation se dela pomoci KFold, ktery to rozdeli na N (treba 10) random podmozin?
+ pak vypisuje cross_Val_score().mean() a .std()
